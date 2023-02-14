@@ -162,7 +162,7 @@ switch (groceryItem) {
 ## Function Declaration
 
 - A [function declaration](https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/function-declaration) binds a function to a name (or identifier), just like how a variable declaration binds a value to a variable name.
-- Function Declaration Anatomy: ![function declaration anatomy](function%20declaration%20anatomy.jpg)
+- Function Declaration Anatomy: ![function declaration anatomy](./images/function%20declaration%20anatomy.jpg)
 - a function declaration consists of:
   - the "function" keyword.
   - the name of the function, or its identifier, followed by parentheses.
@@ -172,16 +172,16 @@ switch (groceryItem) {
 
 - When declaring a function, we can specify its parameters. Parameters allow functions to accept inputs and perform a task using the inputs.
 - Parameters can be used as placeholders for information that will be passed to the function when it is called.
-  ![Function Parameters](function%20parameters.jpg)
+  ![Function Parameters](./images/function%20parameters.jpg)
   - In the diagram above, calculateArea() computes the area of a rectangle, based on two inputs (width and height).
   - The parameters are specified between the parenthesis as width and height, and inside the function body, they act just like regular variables.
   - Width and height act as placeholders for values that will be multiplied together.
 - When calling a function that has parameters, we specify the values in the parentheses that follow the function name. The values that are passed to the function when it is called are called arguments.
 - Arguments can be passed to the function as values or variables.
-  ![Function Arguments](function%20arguments.jpg)
+  ![Function Arguments](./images/function%20arguments.jpg)
 
   - In the function call above, the number 10 is passed as the width and 6 is passed as the height. Notice that the order in which arguments are passed and assigned follows the order that the parameters are declared.
-    ![Function Arguments as Variables](function%20arguments%20as%20variables%20.jpg)
+    ![Function Arguments as Variables](./images/function%20arguments%20as%20variables%20.jpg)
   - The variables recWidth and recHeight are initialized with the values for the height and width of a rectangle before being used in the function call.
 
 - By using parameters, calculateArea() can be reused to compute the area of any rectangle!
@@ -221,7 +221,7 @@ console.log(rectangleArea(5, 7)); // Prints undefined
   - Did we write the function wrong? No!
   - The function worked just fine, and the computer calulcated the area as 35, but we just didn't capture it.
   - this is where 'return' comes in!
-    ![function return](function%20return.jpg)
+    ![function return](./images/function%20return.jpg)
 - To pass back information from the function call, we use a [return statement](https://www.codecademy.com/courses/introduction-to-javascript/lessons/functions/exercises/return).
 - To create a return statement, we use the return keyword followed by the value that we wish to return. Like we saw above, if the value is omitted, undefined is returned instead.
 - When a return statement is used in a function body, the execution of the function is stopped and the code that follows it will not be executed. See this example:
